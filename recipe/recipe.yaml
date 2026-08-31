@@ -12,7 +12,7 @@ source:
   sha256: 5a502e39f298296d3d9efca2601b7a7922ae579974ee324000a5d5f3178da1cb
 
 build:
-  number: 0
+  number: 1
   noarch: generic
   script: ${{ R }} CMD INSTALL --build .
 
